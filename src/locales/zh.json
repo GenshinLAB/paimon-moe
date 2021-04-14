@@ -1,0 +1,524 @@
+{
+  "sidebar": {
+    "home": "首页",
+    "character": "角色",
+    "wishCounter": "祈愿计数器",
+    "calculator": "计算器",
+    "items": "物品",
+    "todoList": "待办清单",
+    "timeline": "时间线",
+    "settings": "设置",
+    "donate": "捐赠"
+  },
+  "home": {
+    "welcome": "欢迎来到 Paimon.moe! 👋",
+    "message": "你最好的原神伙伴！可用提升计算器帮助你决定提升方案，或者使用代办和祈愿计数器跟踪你的进度。",
+    "banner": {
+      "featured": [
+        "Rosaria",
+        "Tartaglia"
+      ],
+      "summoned": "Summoned",
+      "percentage": "from all",
+      "avg": "Pity average",
+      "subtitle": "Calculated from data submitted by {user} paimon.moe users",
+      "detail": "Global With Tally"
+    },
+    "wish": {
+      "message": "导入您的祈愿记录，将其保存超过6个月！ 还可以通过图表自动计算有关你祈愿的统计信息 Import your wish history to keep it more than 6 months! Also automatically count your pity and statistic about your wishes with fancy charts 📊",
+      "latest": "你的上一次祈愿",
+      "banner": "Banner",
+      "time": "时间",
+      "name": "名称",
+      "pity": "Pity",
+      "detail": "祈愿计数器"
+    },
+    "reminder": {
+      "message": "您可以在此处设置Parametric Transformer和Hoyolab（米游社）每日登录的提醒通知🔔！ 点击下面的提醒按钮开始！",
+      "detail": "通知"
+    },
+    "event": {
+      "upcoming": "即将开始的活动",
+      "current": "当前活动",
+      "detail": "时间线"
+    },
+    "discord": {
+      "online": "个成员在线",
+      "message": "加入我们的Discord服务器以获取最新更新公告！ 还可讨论有关原神和paimon.moe的反馈。 ",
+      "join": "加入Discord"
+    },
+    "items": {
+      "title": "Farmable Today",
+      "detail": "物品",
+      "sunday": "Sunday can farm all items 😁"
+    },
+    "calculator": {
+      "title": "🧮 计算角色和武器提升材料和经验书！ 所有计算都可以添加到“待办事项”列表中，它将显示您还需要多少树脂！ ",
+      "detail": "计算器"
+    },
+    "twitter": {
+      "title": "关注我的Twitter，将会发布我当前开发的内容以及paimon.moe的最新更新！ ",
+      "detail": "关注Twitter"
+    }
+  },
+  "characters": {
+    "title": "角色",
+    "subtitle": "Stat numbers are at level 80 Ascension 6. You can also click the table header to sort!",
+    "name": "姓名",
+    "element": "元素",
+    "rarity": "稀有度",
+    "weapon": "武器",
+    "hp": "HP",
+    "atk": "ATK",
+    "def": "DEF"
+  },
+  "wish": {
+    "title": "祈愿计数器",
+    "autoImport": "自动导入",
+    "helpAndSetting": "帮助&设置",
+    "wishesWorth": "Wishes Worth",
+    "lifetimePulls": "Lifetime Pulls",
+    "guarantee": "Guaranteed at {pity}",
+    "name": "名称",
+    "time": "时间",
+    "pity": "Pity",
+    "welcome": "欢迎使用Paimon.moe祈愿计数器！建议使用自动导入器导入您的祈愿记录。",
+    "welcomeStart1": "欲开始，点击上方的",
+    "welcomeStart2": "按钮",
+    "manual": "如果您想手动输入您的数据，您可以在此处开启：",
+    "manualButton": "启用手动输入",
+    "errorBanner": "错误的Banner时间！请在设置中调整你所在的服务器。仍然不工作？请在Discord上给我留言😅",
+    "globalWishTally": "Global Wish Tally",
+    "import": {
+      "title": "导入祈愿历史",
+      "faqsButton": "FAQ - 使用前阅读",
+      "nonew": "无新祈愿",
+      "importNotice1": "导入的祈愿将相应地附加或替换到现有数据中",
+      "importNotice2": "如果您之前没有保存任何数据，则第一个祈愿将被视为pity 1",
+      "importNotice3": "请注意，如果您要导入其他帐户，请确保在设置页面上将您的帐户分开，否则您的数据将会混淆！ ",
+      "saveData": "保存祈愿数据？",
+      "reCalculating": "重新计算pity...",
+      "processing": "处理中",
+      "banner": "Banner",
+      "page": "Page",
+      "parsing": "解析中...",
+      "save": "保存",
+      "cancel": "取消",
+      "cancelling": "取消中...",
+      "importNewWishOnly": "仅导入新祈愿",
+      "importNewWishUncheck": "Uncheck only if you need to re-import all your wish history",
+      "import": "导入",
+      "close": "关闭",
+      "invalidLink": "无效的链接，请检查后重试",
+      "errorApi": "米哈游API返回错误代码，请稍候重试",
+      "timeout": "连接超时，请稍等片刻后重试",
+      "invalidData": "API返回数据无效，请稍候重试",
+      "success": "成功导入😀!",
+      "server": "选择服务器：",
+      "wishTallyCheck": "Submit pity for global wish tally",
+      "wishTally": "We are doing a global wish tally! You can submit your wish tally to participate. All pity data will be aggregated to know what is the average pity of paimon.moe users.",
+      "wishTallyCollected": [
+        "What will be collected:",
+        "and",
+        "pity from your wish history"
+      ],
+      "faqs": {
+        "title": "导入祈愿历史FAQ",
+        "q1": "How does it work?",
+        "a1": "Genshin Impact wish history is basically a web page, so you can access it by opening the web page url. A temporary key will be generated after you open the wish history page or the feedback page, and the importer will automatically use MiHoYo API to fetch your wish history.",
+        "q2": "Is it safe? Will I get banned?",
+        "a2": "Paimon.moe uses the same request that Genshin Impact use to get the wish history, and Paimon.moe has no way whatsoever to modify any game files or memory, and it should be safe. But use it at your own risk (well I use it on my main account). You still can input your data manually 😀.",
+        "q3": "Can you hack my account then?",
+        "a3": [
+          "Paimon.moe never saves private information like your account credentials (even your UID or nickname), so the answer is no. This project is open source on",
+          "; I'm not planning to damage my reputation by hacking other people's account."
+        ],
+        "q4": "Hey I checked the requests and stuff, but why does it request to your domain instead of MiHoYo API?",
+        "a4": [
+          "Paimon.moe cannot request directly to MiHoYo API because of",
+          ", so the request is redirected to a simple CORS proxy to make it work. You can see the code",
+          "here"
+        ],
+        "q5": "Do you store my temporary key or wish history?",
+        "a5": [
+          "Paimon.moe will never store your keys, and uses HTTPS to pass your URL to a CORS proxy to make the CORS work. Paimon.moe will save your 4* pity, 5* pity, and 5* wish information if you submit your wish for our global wish tally (no private information saved! please check",
+          "Privacy Policy",
+          "for more information). You can uncheck submit wish tally to disable wish submission. Then all your wish history is saved on your device (or your Google Drive if you turned on sync)."
+        ],
+        "q6": "I've done all the steps, but I got some API error?",
+        "a6": "Make sure you copy all the text (hold and press Select All for mobile devices); maybe you missed some text that are needed for the importer to work."
+      },
+      "guide": {
+        "video": "Video Tutorial",
+        "pc": [
+          "Open Paimon menu [ESC]",
+          "Click Feedback",
+          "Wait for it to load and a browser page should open",
+          "Copy & paste the link to the textbox below",
+          "Paste link here... https://webstatic..."
+        ],
+        "android": [
+          "Open Paimon menu",
+          "Press Feedback",
+          "Wait for it to load and a feedback page should open",
+          "Turn off your Wi-Fi and data connection",
+          "Press refresh on top right corner",
+          "The page should display an error and show you some text with black font",
+          "Hold the text and press select all, then copy that text (don't copy only some portion of the text)",
+          "Turn on your Wi-Fi or data connection",
+          "Paste the text to the textbox below",
+          "Paste text here... Webpage not available..."
+        ],
+        "ios": [
+          "Open Paimon menu",
+          "Press Feedback",
+          "Wait for it to load and a feedback page should open",
+          "Press In-game issue",
+          "Press Co-Op Mode",
+          "There is a link on the bottom of the reply; press that",
+          "A browser should open up. Copy the link and paste it below",
+          "Paste link here... https://genshin.mihoyo..."
+        ]
+      }
+    },
+    "help": {
+      "title": "祈愿计数器帮助&设定",
+      "exportTitle": "导出祈愿历史",
+      "exportMessage": "你可以在这里将祈愿历史导出为Excel文件",
+      "export": "导出为Excel",
+      "exporting": "导出中...",
+      "import": "导入",
+      "exportFinish": "成功导出，请稍等浏览器自动下载文件！",
+      "wishTallyTitle": "Submit Wish Tally",
+      "wishTally": "We are doing a global wish tally! You can submit your wish tally to participate. All pity data will be aggregated to know what is the average pity of paimon.moe users.",
+      "wishTallyCollected": [
+        "What will be collected:",
+        "and",
+        "pity from your wish history"
+      ],
+      "wishTallySubmit": "Submit Wish Tally",
+      "wishTallyThankyou": "Thankyou for participating!",
+      "manualTitle": "手动输入设置",
+      "enableManual": "启用手动输入",
+      "notice": "Using Auto Import and manual input together is not recommended as it still requires some more testing!",
+      "consider": "Consider using the Auto Importer first. Access it by clicking the button next to the button you clicked to open this How To.",
+      "howto": {
+        "title": "How to Use Manual Input",
+        "subtitle": "After a 1x Wish:",
+        "press": "Press",
+        "whenYouGet": "when you get",
+        "p1": "It will automatically add the lifetime pulls,",
+        "and": "and",
+        "p2": [
+          "When the",
+          "pity reaches 10, it will automatically be reset to 0"
+        ],
+        "p3": [
+          "When the",
+          "pity reaches 90, it will automatically be reset to 0"
+        ],
+        "p4": [
+          "After a 10x Wish, press",
+          "but keep in mind that the pity counter might not be accurate, because there is no way to tell when the drop occured (maybe you got it on the 1st or even the 10th pull). To ensure that the counter is still accurate, you need to check the history table and add it one-by-one like you do 1x Wishes."
+        ],
+        "p5": [
+          "You can also press the",
+          "button to edit the values manually!"
+        ],
+        "p6": [
+          "Press the arrow on the bottom to see your pulls' details. A popup will show up when you get a",
+          "or",
+          "You can also add or edit the table manually."
+        ]
+      }
+    },
+    "types": {
+      "beginners": "Beginners' Wish",
+      "standard": "Standard",
+      "character-event": "Character Event",
+      "weapon-event": "Weapon Event"
+    },
+    "detail": {
+      "weapon": "Weapon",
+      "character": "Character",
+      "time": "Time",
+      "pity": "Pity",
+      "name": "Name",
+      "type": "Type",
+      "banner": "Banner",
+      "roll": "#Roll",
+      "totalThisBanner": "Total pull on this banner",
+      "worth": "Worth",
+      "loading": "Loading... (If this stuck, change your server on settings page)",
+      "guaranteed": "The next 5★ is guaranteed to be the promotional character or weapon"
+    },
+    "tally": {
+      "title": "Wish Tally",
+      "subtitle": "Global average pity from paimon.moe users submission",
+      "update": "Updated",
+      "summoned": "Summoned",
+      "wonFiftyFifty": "won 50:50",
+      "fromFiveStar": "from all 5★",
+      "fromFourStar": "from all 4★",
+      "show": "Show",
+      "name": "Name",
+      "total": "Total",
+      "wishTotal": "Wish Total",
+      "worth": "Worth",
+      "weapon": "Weapons",
+      "character": "Characters",
+      "error": "Data is not available yet 😞",
+      "pity": "Pity",
+      "median": "5★ Median",
+      "user": "Total Users"
+    }
+  },
+  "calculator": {
+    "titleWeapon": "武器计算器",
+    "titleCharacter": "角色计算器",
+    "titleResin": "树脂计算器",
+    "goto": "前往",
+    "howToUse": "如何使用",
+    "guide": {
+      "clickToMaximize": "Click the picture to maximize",
+      "howToWeapon": "How to use the Weapon Calculator",
+      "howToCharacter": "How to use the Character Calculator"
+    },
+    "weapon": {
+      "calculateAscension": "Calculate Ascension Material?",
+      "selectRarity": "Select weapon rarity",
+      "selectWeapon": "Select weapon",
+      "current": "Current Weapon Level, EXP, & Ascension",
+      "inputCurrentLevel": "Input current weapon level...",
+      "inputCurrentExp": "Input current weapon EXP...",
+      "intended": "Intended Weapon Level & Ascension",
+      "inputIntendedLevel": "Input intended weapon level...",
+      "resource": "Resources to Use",
+      "calculate": "Calculate",
+      "unknownInformation": "There are some unknown information",
+      "ascensionLevel": "Ascension level",
+      "mora": "Mora (approximate ±40)",
+      "expWasted": "EXP Wasted",
+      "addToTodo": "Add to Todo List",
+      "addedToTodo": "Added to Todo List"
+    },
+    "character": {
+      "calculateAscension": "Calculate Ascension Material?",
+      "selectCharacter": "Select character",
+      "current": "Current Character Level, EXP, & Ascension",
+      "inputCurrentLevel": "Input current character level...",
+      "inputCurrentExp": "Input current character EXP...",
+      "intended": "Intended Character Level & Ascension",
+      "inputIntendedLevel": "Input intended character level...",
+      "resource": "Resource to Use",
+      "calculateTalent": "Calculate Talent Material?",
+      "inputTalentLevel": "Input the 1st, 2nd & 3rd current talent level",
+      "inputTalentNotice": "If it has different color, substract it by 3",
+      "inputTalent": [
+        "1st talent lvl",
+        "2nd talent lvl",
+        "3rd talent lvl"
+      ],
+      "talentToLevel": "to level",
+      "calculate": "Calculate",
+      "unknownInformation": "There are some unknown information",
+      "ascensionLevel": "Ascension level",
+      "mora": "Mora (approximate ±40)",
+      "expWasted": "EXP Wasted",
+      "addToTodo": "Add to Todo List",
+      "addedToTodo": "Added to Todo List"
+    },
+    "expTable": {
+      "level": "等级",
+      "items": "物品",
+      "wasted": "浪费经验",
+      "mora": "消耗摩拉"
+    },
+    "resinTable": {
+      "quantity": "Quantity",
+      "time": "Time To Wait"
+    },
+    "resin": {
+      "currentResin": "Current Resin",
+      "desiredResin": "Desired Resin",
+      "or": "or",
+      "inputCurrentResin": "Input current resin...",
+      "inputDesireResin": "Input how many resin you want to wait...",
+      "timeFormat": "en",
+      "calculate": "Calculate",
+      "currentTime": "Current Time",
+      "fullTime": "Will be replenished at",
+      "hours": "hours",
+      "minutes": "minutes",
+      "seconds": "seconds"
+    }
+  },
+  "items": {
+    "title": "Item List",
+    "subtitle": "Click the item image to add it to the todo list",
+    "searchCharacter": "Search character",
+    "searchWeapon": "Search weapon",
+    "day": "Days",
+    "material": "Materials",
+    "characterWeapons": "Characters & Weapons",
+    "add": {
+      "rarity": "Select Rarity",
+      "amount": "Amount",
+      "inputAmount": "Input amount...",
+      "cancel": "Cancel",
+      "add": "Add to Todo"
+    }
+  },
+  "days": {
+    "Sunday": "周日",
+    "Monday": "周一",
+    "Tuesday": "周二",
+    "Wednesday": "周三",
+    "Thursday": "周四",
+    "Friday": "周五",
+    "Saturday": "周六"
+  },
+  "todo": {
+    "title": "代办清单",
+    "summary": "概要",
+    "empty": [
+      "目前无事可做😀",
+      "Add some from the Items page or the Calculator!"
+    ],
+    "farmableToday": "Farmable Today",
+    "resin": "Resin needed",
+    "based": "Based on AR:{ar} and WL:{wl}",
+    "change": "(change on settings)",
+    "approximation": "Approximation calculated from drop rates by",
+    "delete": {
+      "title": "Delete this todo?",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    }
+  },
+  "timeline": {
+    "title": "时间线",
+    "localTime": "以本地时间显示",
+    "starting": "距离开始",
+    "ending": "距离结束",
+    "live": "正在进行！",
+    "finished": "已结束"
+  },
+  "settings": {
+    "version": "数据版本：",
+    "multiple": "Have multiple accounts? Choose accounts here to separate your Wish and Todo data",
+    "selectAccount": "选择账户",
+    "reset": "重置",
+    "delete": "删除",
+    "add": "添加",
+    "server": "选择服务器：",
+    "drive": [
+      "Paimon.moe uses the Application Data Directory on your Google Drive to save and sync your Wish counter and Todo list.",
+      "Paimon.moe can only read and write files that this site created."
+    ],
+    "driveError": "无法加载Google云端硬盘API",
+    "driveSignIn": "登录Google云端硬盘",
+    "driveSignOut": "登出Google云端硬盘",
+    "synced": "已同步",
+    "waiting": "等待中...",
+    "syncing": "同步中...",
+    "lastSync": "上次同步：",
+    "feedback": "如果你发现任何bugs，错误数据，或者其他反馈，请在",
+    "or": "给我留言，或",
+    "thanks": "谢谢😁！",
+    "modal": {
+      "notice": "All Todo and Wish history data will be deleted",
+      "backup": "You can backup your wish history first by exporting it to an excel file!",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "reset": "Reset"
+    }
+  },
+  "privacypolicy": {
+    "title": "隐私条例",
+    "subtitle": "What paimon.moe collect and what it used for",
+    "collect": [
+      {
+        "title": "Visited url at paimon.moe, referer, browser, operating system, device type, visitor country",
+        "content": [
+          "Paimon.moe use",
+          "plausible.io",
+          "(a privacy-friendly analytics) so we can see how many people use which feature, so we can prioritize what feature to implement or improve."
+        ]
+      },
+      {
+        "title": "Error message and exception from the website",
+        "content": [
+          "Paimon.moe will send error and exception from the website to",
+          "sentry.io",
+          "so we can track what cause problem and fix it accordingly."
+        ]
+      },
+      {
+        "title": "Wish Pity",
+        "content": [
+          "Paimon.moe will save 4* pity count, 5* pity count, and 5* wish information (wish time, item name, pity count) if you check 'Submit pity for global wish tally' on Wish Auto Import or manually submit it on Help & Setting menu. Paimon.moe will aggregate the data and use it to calculate the average pity for each banner on paimon.moe users. You can check it here",
+          "wish tally"
+        ]
+      }
+    ],
+    "subtitleNotCollect": "What paimon.moe NOT collect",
+    "notCollect": [
+      "Paimon.moe never save any password, uid, username, email, temporary keys, or feedback url. If you are interested, the project is open source and you can check the source code at",
+      "paimon-moe-api Github",
+      "and",
+      "paimon-moe Github"
+    ]
+  },
+  "sync": {
+    "message": "Your local data in this browser is conflicting with the ones stored in the Google Drive!",
+    "googleDriveData": "Google Drive Data",
+    "localData": "This Browser Local Data",
+    "older": "OLDER",
+    "newer": "NEWER",
+    "useGoogleDriveData": "Use Data From Google Drive",
+    "useLocalData": "Use This Browser Local Data",
+    "download": "Download Both Data",
+    "lastModified": "Last modified",
+    "or": "OR"
+  },
+  "footer": {
+    "affliate": "Paimon.moe不附属于米哈游。",
+    "copyright": "原神（Genshin Impact）游戏内容和材料为米哈游的商标。",
+    "discord": "加入Discord",
+    "community": "社区链接",
+    "official": "官方链接"
+  },
+  "donate": {
+    "message": [
+      "Thank you! Hope you find it useful.",
+      "I made this website for fun when I have some spare time. Obviously will add more feature and update the data every update, because I like to explore the game and kind of min-maxing it.",
+      "If you want to donate, your donation will definitely help on improving the site and motivating me to add more stuff to Paimon.moe! Thank you very much and have fun, hope you like it!",
+      "If you like coding, you can also contributing to the project on"
+    ],
+    "kofi": "Support me on Ko-fi",
+    "trakteer": "Support me on Trakteer",
+    "crypto": "Support me with Crypto"
+  },
+  "reminder": {
+    "notSupported": "Your browser does not support push notification, please try other browser!",
+    "blocked": "Notification is blocked, the reminder notification will not work! Please enable it on your browser.",
+    "desktop": "Desktop browser cannot receive notification if the browser is not running!",
+    "early": "The notification may arrive earlier (about 1-10 minutes) because of the way we send the notification",
+    "allowNotification": "Please allow the notification prompt that shows up!",
+    "transformer": "Parametric Transformer Reminder",
+    "last": "Enter when you last used the Parametric Transformer",
+    "lastHoyolab": "Enter what time you want to be notified for the daily check-in",
+    "every": "Everyday at",
+    "countdown": "Enter countdown time of the Parametric Transformer (If you don't remember the exact time, you need to approximate it)",
+    "useLast": "Use last used time instead",
+    "useCountdown": "Use countdown time instead",
+    "set": "Set Reminder",
+    "checking": "Checking saved reminder...",
+    "errorSelect": "Please select the day and hour!",
+    "errorSaving": "Something wrong when saving the reminder 🙁",
+    "current": "Current reminder",
+    "hoyolab": "Hoyolab Daily Check-In Reminder",
+    "comingsoon": "Coming Soon!"
+  }
+}
